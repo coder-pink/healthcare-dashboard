@@ -1,0 +1,30 @@
+
+.card {
+
+  background-color: #e7e9fd;
+  border-radius: 16px;
+  padding: 1rem 1.4rem;
+  /* padding: 0.7rem 0.18rem; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: fit-content;
+  /* min-width: 180px; */
+}
+
+.title {
+  font-weight: 600;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+.icon {
+  font-size: 1rem;
+}
+
+.time {
+  font-size: 0.8rem;
+  color: #666;
+}

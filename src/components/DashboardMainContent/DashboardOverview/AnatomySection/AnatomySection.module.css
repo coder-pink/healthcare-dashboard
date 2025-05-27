@@ -1,0 +1,23 @@
+
+.container {
+  position: relative;
+  width: 100%;
+  /* max-width: 800px; */
+  margin: auto;
+   width: 200px; 
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border: 1px solid #f8f9fd;
+}
+
+.label {
+  position: absolute;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.8rem;
+  transform: translate(-50%, -50%);
+}

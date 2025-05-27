@@ -1,0 +1,72 @@
+.container {
+  
+   background-color: #f8f9fd;
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin-top: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  /* border: 2px solid red; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.subtext {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.chart {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 1rem;
+}
+
+.dayColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bars {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: flex-end;
+  height: 80px;
+}
+
+.bar {
+  width: 6px;
+  border-radius: 4px;
+}
+
+.primary {
+  background-color: #00c3ff;
+}
+
+.secondary {
+  background-color: #5441d6;
+}
+
+.tertiary {
+  background-color: #d3d3d3;
+}
+
+.dayLabel {
+  font-size: 0.75rem;
+  color: #555;
+}

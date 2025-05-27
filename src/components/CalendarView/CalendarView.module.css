@@ -1,0 +1,132 @@
+
+.container {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%; 
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.month {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nav button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  margin: 0 0.25rem;
+  cursor: pointer;
+  color: #4b4bcb;
+}
+
+
+.weekRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.3rem;
+  width: 100%;
+}
+
+.dayBlock {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  padding: 0.25rem;
+  background: #f7f8fc;
+  box-sizing: border-box;
+}
+
+.dayName {
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: #444;
+  text-align: center;
+}
+
+.date {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.times {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  width: 100%;
+}
+
+.timeSlot,
+.emptyTime {
+  font-size: 0.7rem;
+  padding: 0.2rem;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.timeSlot {
+  background-color: #dcdffe;
+  color: #4b4bcb;
+}
+
+.emptyTime {
+  color: #bbb;
+}
+
+.details {
+  display: flex;
+  gap: 1rem;
+
+  flex-direction: row;
+}
+
+.cardBlue,
+.cardLight {
+  flex: 1 1 48%;
+  padding: 1rem;
+  border-radius: 16px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.cardBlue {
+  background-color: #4b4bcb;
+}
+
+.cardLight {
+  background-color: #e7e9fd;
+  color: #333;
+}
+
+.cardBlue h4,
+.cardLight h4 {
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.cardBlue p,
+.cardLight p {
+  margin: 0.25rem 0;
+  font-size: 0.8rem;
+}
+
+.cardBlue span,
+.cardLight span {
+  font-size: 0.75rem;
+  opacity: 0.9;
+}

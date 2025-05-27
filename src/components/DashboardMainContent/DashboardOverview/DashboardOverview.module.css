@@ -1,0 +1,10 @@
+.overview {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  /* width: 40%; */
+   overflow-y: auto; /* Enable scroll */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  /* border: 2px solid red; */
+}
